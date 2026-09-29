@@ -9,7 +9,7 @@ import GlobalStyles from "./styles/GlobalStyles";
 import Dashboard from "./pages/Dashboard";
 import Bookings from "./pages/Bookings";
 import Booking from "./pages/Booking";
-import Checkin from "./pages/CheckIn";
+import Checkin from "./pages/Checkin";
 import Cabins from "./pages/Cabins";
 import Users from "./pages/users";
 import Settings from "./pages/Settings";
