@@ -18,8 +18,7 @@ export function useLogin() {
     },
     onError: (err) => {
       const message = err.response?.data?.message || err.message;
-      alert(message);
-      console.error(err);
+      toast(message);
     },
   });
 
