@@ -17,9 +17,9 @@ export function useLogin() {
       navigate("/dashboard", { replace: true });
     },
     onError: (err) => {
-      // err.response?.data?.message comes from backend's error handler
-      const message = err.response?.data?.message || "Login failed";
-      toast.error(message);
+      const message = err.response?.data?.message || err.message;
+      alert(message);
+      console.error(err);
     },
   });
 
