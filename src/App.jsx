@@ -11,7 +11,7 @@ import Bookings from "./pages/Bookings";
 import Booking from "./pages/Booking";
 import Checkin from "./pages/Checkin";
 import Cabins from "./pages/Cabins";
-import Users from "./pages/users";
+import Users from "./pages/Users";
 import Settings from "./pages/Settings";
 import Account from "./pages/Account";
 import Login from "./pages/Login";
